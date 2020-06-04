@@ -1,4 +1,4 @@
-![Publish Github Package](https://github.com/davikawsaki/loopback-soft-delete-mixin/workflows/Publish%20Github%20Package/badge.svg)
+![Publish Github Package](https://github.com/davikawasaki/loopback-soft-delete-mixin/workflows/Publish%20Github%20Package/badge.svg)
 
 # Loopback SoftDelete Mixin
 
