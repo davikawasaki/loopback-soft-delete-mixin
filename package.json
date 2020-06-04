@@ -26,6 +26,7 @@
     "debug": "2.x"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
     "@babel/register": "^7.10.1",
     "babel": "^6.23.0",
     "babel-core": "^6.1.21",
