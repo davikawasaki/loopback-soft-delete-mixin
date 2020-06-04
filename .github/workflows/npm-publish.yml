@@ -25,6 +25,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
+      - run: npm i -g gulp@3.9.0
       - run: npm install
       - run: npm test
       - name: Discord notification for test success
@@ -91,6 +92,8 @@ jobs:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # - name: "cat package.json"
       #   run: cat ./package.json
+      # - run: npm i -g gulp@3.9.0
+      # - run: npm install
       # - run: npm publish
       #   env:
       #     NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
